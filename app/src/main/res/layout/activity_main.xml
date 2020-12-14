@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/positivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relolayo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".setUpActivity">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ibTitle"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Why I am worthy"
+                android:textSize="36dp"
+                android:gravity="center"
+                android:textColor="@color/orange"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/layoutList"
+            android:id="@+id/pluser"
+            android:layout_marginTop="18dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="+"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/circle"/>
+
+        <!--
+
+        <ListView
+            android:id="@+id/ibList"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/ibTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ib">
+
+        </ListView>
+
+
+        <EditText
+            android:id="@+id/etib"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/ibList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Place youe icebreaker here"
+            android:background="@drawable/ib"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"/>
+
+
+        <TextView
+            android:layout_below="@+id/etib"
+            android:id="@+id/pluser"
+            android:layout_marginTop="18dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="+"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/circle"/>
+
+        <Button
+            android:layout_below="@+id/pluser"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="save"
+            android:background="@drawable/button"
+            android:layout_centerInParent="true"/>
+
+-->
+
+
+    </RelativeLayout>
+</ScrollView>

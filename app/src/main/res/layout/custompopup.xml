@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="530dp"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/deleteTextView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:text="x"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/circle"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I AM WORTHY"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app exists to serve as the angel on your right shoulder reminding you why you are good enough."
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simply give your angel some of your best attributes (yes we all have them) and we will be sure to remind you everyday 😊."
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It should look someting like this!"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ib"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="I have a very sweet smile!"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ib"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="I am a very caring friend!"
+        android:textSize="18dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ib"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="My dog loves me!"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ib"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="I am a great singer!"
+        android:textSize="18dp"/>
+
+
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:text="+"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/circle"/>
+
+
+
+
+
+
+</LinearLayout>
